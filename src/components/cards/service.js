@@ -8,7 +8,7 @@ const Service = ({ service }) => {
   return (
     <Box sx={styles.service}>
       <Box as="figure">
-        <Icon color='#A29BFE' size={"45px"} />
+        <Icon color='#f7a40c' size={"45px"} />
       </Box>
       <Heading as="h4">{service.title}</Heading>
       <Text as="p">{service.desc}</Text>

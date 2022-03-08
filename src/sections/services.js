@@ -24,7 +24,7 @@ const data = {
       id: 2,
       icon: "BsGraphUp",
       title: 'Apoyo al emprendimiento',
-      desc: `Estamos enfocados en ayudar a los emprendedores a lograr sus metas en corto plazo.`,
+      desc: `Estamos enfocados a ayudar a los emprendedores a lograr sus metas en corto plazo.`,
       link: '#',
     },
     {
@@ -37,7 +37,7 @@ const data = {
     {
       id: 4,
       icon: "BsLightning",
-      title: 'Solucion express',
+      title: 'Solución express',
       desc: `Olvídate de los largos procesos. Con solo una visita en tu local el agente podrá otorgarse tu crédito.`,
       link: '#',
     },
@@ -90,7 +90,7 @@ const Services = () => {
       <Container>
         <SectionHeading
           slogan="Nuestros valores"
-          title="¿Que nos hace diferentes?"
+          title="¿Qué nos hace diferentes?"
         />
         <Grid sx={styles.serviceGrid}>
           {data.services.map((item) => (

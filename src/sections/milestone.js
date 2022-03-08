@@ -53,7 +53,7 @@ const styles = {
     justifyContent: 'flex-end',
   },
   card: {
-    backgroundColor: rgba('#A29BFE', 0.95),
+    backgroundColor: rgba('#557996', 0.95),
     borderRadius: 8,
     color: 'white',
     marginRight: [0, null, null, 10, 14, 18],
@@ -66,7 +66,7 @@ const styles = {
       lineHeight: 1.68,
     },
     button: {
-      backgroundColor: '#756ED7',
+      backgroundColor: '#f7a40c',
       fontSize: [1, null, null, 2],
       mt: [3, null, null, 5, 8],
       minHeight: [45, null, null, 60],

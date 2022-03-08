@@ -8,7 +8,7 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
         Teléfono  de contacto
       </Label>
       <Input type="text" id="phone" placeholder="Ingresa tu teléfono" />
-      <Button>{buttonLabel ?? 'Quiero ser contactado'}</Button>
+      <Button>{buttonLabel ?? 'Quiero mi crédito'}</Button>
     </Flex>
   );
 };

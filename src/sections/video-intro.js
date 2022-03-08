@@ -9,7 +9,7 @@ import paint1 from 'assets/images/paint1.svg';
 import { Link } from 'components/link';
 
 const list = [
-  'Carniceria',
+  'Carnicería',
   'Tienda de abarrotes',
   'Tortilleria',
   'Papeleria',
@@ -44,7 +44,7 @@ const VideoIntro = () => {
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
               Enfocados ayudar al emprendedor
-              <span sx={{ background: `url(${paint1})` }}>del sureste</span> a crecer su negocio y lograr sus metas en corto plazo
+              <span sx={{ background: `url(${paint1})` }}>del sureste</span> a crecer su negocio y lograr sus metas a corto plazo
             </Heading>
             <Text as="p" sx={styles.summary}>
 

@@ -9,7 +9,7 @@ export default [
   },
   {
     path: 'services',
-    label: '¿Que nos hace diferentes?',
+    label: '¿Qué nos hace diferentes?',
   },
   {
     path: 'first_credit',
