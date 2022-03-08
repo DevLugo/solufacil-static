@@ -46,9 +46,8 @@ const VideoIntro = () => {
               Enfocados ayudar al emprendedor
               <span sx={{ background: `url(${paint1})` }}>del sureste</span> a crecer su negocio y lograr sus metas a corto plazo
             </Heading>
-            <Text as="p" sx={styles.summary}>
-
-              Si cuentas con uno de los siguientes emprendimientos y quieres acelerar el crecimiento de tu negocio, <Link path={"#"} style={{ color: '#A29BFE', fontWeight: 500 }}>agenda una visita</Link>.
+            <Text sx={styles.summary} >
+              Si cuentas con uno de los siguientes emprendimientos y quieres acelerar el crecimiento de tu negocio, <a href="https://api.whatsapp.com/send?phone=+529811332834&text=Estoy Interesado en un crédito para mi negocio" style={{ color: '#A29BFE', fontWeight: 500, cursor: "pointer" }}>agenda una visita</a>.
             </Text>
 
             <Grid sx={styles.list} as="ul">

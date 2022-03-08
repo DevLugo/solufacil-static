@@ -24,7 +24,9 @@ const Milestone = () => {
             <Text as="span" sx={styles.lastDonation}>
               Y seras contactado en las próximas 24 horas
             </Text>
-            <Button>Solicitar Ahora</Button>
+            <Button onClick={() => {
+              location.href = 'https://api.whatsapp.com/send?phone=+529811332834&text=Estoy Interesado en un crédito para mi negocio';
+            }}>Quiero mi crédito</Button>
           </Box>
         </Parallax>
       </Container>

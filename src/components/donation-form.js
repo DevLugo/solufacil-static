@@ -6,6 +6,7 @@ import {
   Radio,
   Label,
   Button,
+  Link,
   Heading,
 } from 'theme-ui';
 import { rgba } from 'polished';
@@ -92,12 +93,14 @@ const DonationForm = () => {
           </Label>
         </Box>
         <Box sx={styles.buttonGroup}>
-          <Button variant="primary" sx={styles.submit}>
-            Solicitar Ahora
+          <Button variant="primary" sx={styles.submit} onClick={() => {
+            location.href = 'https://api.whatsapp.com/send?phone=+529811332834&text=Estoy Interesado en un crédito para mi negocio';
+          }}>
+            Quiero mi Crédito
           </Button>
         </Box>
-      </Box>
-    </Box>
+      </Box >
+    </Box >
   );
 };
 

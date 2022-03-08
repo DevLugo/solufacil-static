@@ -11,7 +11,6 @@ const Subscribe = () => {
         <SectionHeading
           sx={styles.heading}
           title="¿Deseas ser contactado por uno de nuestros agentes?"
-          description="Al poner tu número celular, aceptas ser contactado por uno de nuestros asesores"
         />
         <SubscriptionForm sx={styles.subscriptionForm} />
       </Container>
@@ -42,7 +41,7 @@ const styles = {
   subscriptionForm: {
     m: ['30px auto 0'],
     maxWidth: [555],
-    flexDirection: ['column', null, null, 'row'],
+    flexDirection: ['column', null, null, 'column'],
     input: {
       backgroundColor: rgba('white', 0.08),
       border: '0 none',
@@ -60,7 +59,7 @@ const styles = {
     button: {
       fontSize: [1, null, null, 2],
       minHeight: [50, null, null, null, 60],
-      ml: [0, null, null, 3],
+      ml: [4, null, null, 3],
       mt: [4, null, null, 0],
     },
   },

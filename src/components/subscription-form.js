@@ -3,12 +3,10 @@ import { jsx, Label, Flex, Input, Button } from 'theme-ui';
 
 const SubscriptionForm = ({ buttonLabel, ...props }) => {
   return (
-    <Flex as="form" sx={styles.form} {...props}>
-      <Label htmlFor="email" variant="styles.srOnly">
-        Teléfono  de contacto
-      </Label>
-      <Input type="text" id="phone" placeholder="Ingresa tu teléfono" />
-      <Button>{buttonLabel ?? 'Quiero mi crédito'}</Button>
+    <Flex sx={styles.form} {...props} style={{ textAlign: "middle" }}>
+      <Button variant="primary" onClick={() => {
+        location.href = 'https://api.whatsapp.com/send?phone=+529811332834&text=Estoy Interesado en un crédito para mi negocio';
+      }}>{'Quiero mi crédito'}</Button>
     </Flex>
   );
 };
