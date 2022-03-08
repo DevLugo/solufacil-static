@@ -1,13 +1,14 @@
 /** @jsx jsx */
 import { jsx, Box, Heading, Text } from 'theme-ui';
-import Image from 'components/image';
-import { LearnMore } from 'components/link';
+import * as BsIcons from "react-icons/bs";
+
 
 const Service = ({ service }) => {
+  const Icon = BsIcons[service.icon];
   return (
     <Box sx={styles.service}>
       <Box as="figure">
-        <Image width="64" height="64" src={service.icon} alt={service.title} />
+        <Icon color='#A29BFE' size={"45px"} />
       </Box>
       <Heading as="h4">{service.title}</Heading>
       <Text as="p">{service.desc}</Text>

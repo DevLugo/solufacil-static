@@ -4,7 +4,6 @@ import { jsx, Box, Container, Grid } from 'theme-ui';
 import TrackVisibility from 'react-on-screen';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import StatItem from 'components/cards/stat-item';
 import icon1 from 'assets/images/services/1.png';
 import icon2 from 'assets/images/services/2.png';
 import icon3 from 'assets/images/services/3.png';
@@ -16,44 +15,44 @@ const data = {
   services: [
     {
       id: 1,
-      icon: icon1,
-      title: 'Interes preferencial',
-      desc: `Contamos con una tasa de interes preferencial para nuestros clientes.`,
+      icon: "BsHeart",
+      title: 'Interés preferencial',
+      desc: `Contamos con una tasa de interés preferencial para nuestros clientes.`,
       link: '#',
     },
     {
       id: 2,
-      icon: icon2,
+      icon: "BsGraphUp",
       title: 'Apoyo al emprendimiento',
-      desc: `Estamos enfocados en ayudar a los emprendedores campechanos.`,
+      desc: `Estamos enfocados en ayudar a los emprendedores a lograr sus metas en corto plazo.`,
       link: '#',
     },
     {
       id: 3,
-      icon: icon3,
+      icon: "BsAlarm",
       title: 'Sin tiempos de espera',
-      desc: `Recibiras la cantidad solicitada al momento de que firmes.`,
+      desc: `Recibirás la cantidad solicitada al momento de que firmes.`,
       link: '#',
     },
     {
       id: 4,
-      icon: icon4,
+      icon: "BsLightning",
       title: 'Solucion express',
-      desc: `Olvidate de los largos procesos; con solo una visita en tu local el agente podra otorgarte tu credito.`,
+      desc: `Olvídate de los largos procesos. Con solo una visita en tu local el agente podrá otorgarse tu crédito.`,
       link: '#',
     },
     {
       id: 5,
-      icon: icon5,
-      title: 'Apoyo telefonico',
+      icon: "BsPhone",
+      title: 'Apoyo telefónico',
       desc: `Contamos con asesores para cualquier duda que tengas.`,
       link: '#',
     },
     {
       id: 6,
-      icon: icon6,
+      icon: "BsGeo",
       title: 'Sin salir de tu negocio',
-      desc: `Tanto el credito como los abonos se otorgaran en tu negocio.`,
+      desc: `Tanto el crédito como los abonos se realizarán en tu negocio.`,
       link: '#',
     },
   ],

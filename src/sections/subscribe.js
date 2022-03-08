@@ -11,7 +11,7 @@ const Subscribe = () => {
         <SectionHeading
           sx={styles.heading}
           title="¿Deseas ser contactado por uno de nuestros agentes?"
-          description="Al poner tu email, aceptas nuestros terminos y condiciones"
+          description="Al poner tu número celular, aceptas ser contactado por uno de nuestros asesores"
         />
         <SubscriptionForm sx={styles.subscriptionForm} />
       </Container>

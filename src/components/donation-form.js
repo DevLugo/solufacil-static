@@ -4,17 +4,13 @@ import {
   Box,
   Text,
   Radio,
-  Image,
   Label,
-  Input,
   Button,
   Heading,
-  Checkbox,
 } from 'theme-ui';
 import { rgba } from 'polished';
 import { useState } from 'react';
 
-import googlePay from 'assets/images/icons/google-pay.png';
 import dotPattern from 'assets/images/dot-pattern.png';
 
 const presetAmounts = [10000, 15000, 20000];
@@ -54,7 +50,7 @@ const DonationForm = () => {
 
   return (
     <Box sx={styles.formWrapper}>
-      <Heading sx={styles.title}>Calcula tu credito</Heading>
+      <Heading sx={styles.title}>Obtén un crédito para tu negocio</Heading>
       <Box as="form" sx={styles.form} onSubmit={handleSubmit}>
         <Box sx={styles.radioGroup}>
           <Label>
@@ -92,16 +88,12 @@ const DonationForm = () => {
 
         <Box sx={styles.checkbox}>
           <Label>
-            <Checkbox
-              onChange={handleCheckbox}
-              defaultChecked={state.joinCommunity}
-            />
-            <Text as="span">La proyeccion se realizara tomando como fecha inicial la fecha actual</Text>
+            <Text as="span">Agenda una visita de uno de nuestros asesores financieros</Text>
           </Label>
         </Box>
         <Box sx={styles.buttonGroup}>
           <Button variant="primary" sx={styles.submit}>
-            Calcular ahora
+            Solicitar Ahora
           </Button>
         </Box>
       </Box>

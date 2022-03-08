@@ -5,9 +5,9 @@ const SubscriptionForm = ({ buttonLabel, ...props }) => {
   return (
     <Flex as="form" sx={styles.form} {...props}>
       <Label htmlFor="email" variant="styles.srOnly">
-        Correo Electrónico
+        Teléfono  de contacto
       </Label>
-      <Input type="email" id="email" placeholder="Ingresa tu correo electrónico" />
+      <Input type="text" id="phone" placeholder="Ingresa tu teléfono" />
       <Button>{buttonLabel ?? 'Quiero ser contactado'}</Button>
     </Flex>
   );

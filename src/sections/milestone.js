@@ -12,17 +12,17 @@ const Milestone = () => {
         <Parallax sx={styles.parallax} bgImage={parallax} strength={200}>
           <Box sx={styles.card}>
             <Text as="p" sx={styles.cardTitle}>
-              Tu Primer credito
+              Tu primer crédito
             </Text>
             <Heading sx={styles.goal}>$10,000</Heading>
             <Text as="p" sx={styles.collected}>
-              Agenda una visita de nuestro agente
+              Agenda una visita de nuestro asesor
             </Text>
             <Progress max={1} value={1 / 2} sx={styles.progress}>
               50%
             </Progress>
             <Text as="span" sx={styles.lastDonation}>
-              Y seras contactado en las proximas 24 horas
+              Y seras contactado en las próximas 24 horas
             </Text>
             <Button>Solicitar Ahora</Button>
           </Box>

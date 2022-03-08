@@ -17,7 +17,7 @@ export default function IndexPage() {
       <Layout>
         <SEO
           title="Capital SoluFacil"
-          description="Empresa 100% campechana enfocada en ayudar a los emprendedores campechanos"
+          description="Empresa 100% campechana enfocada en ayudar a los emprendedores del sureste de México"
         />
         <Banner />
         <VideoIntro />

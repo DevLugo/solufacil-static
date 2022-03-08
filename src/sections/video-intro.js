@@ -3,11 +3,10 @@ import { useState } from 'react';
 import { IoIosCheckmarkCircle } from 'react-icons/io';
 import { jsx, Box, Container, Grid, Button, Heading, Text } from 'theme-ui';
 import Modal, { CloseButton } from 'components/modal/modal';
-import ResponsiveIframe from 'components/responsive-iframe';
 import Image from 'components/image';
 import videoBanner from 'assets/images/stores/2.jpeg';
 import paint1 from 'assets/images/paint1.svg';
-import paint2 from 'assets/images/paint2.svg';
+import { Link } from 'components/link';
 
 const list = [
   'Carniceria',
@@ -45,10 +44,11 @@ const VideoIntro = () => {
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
               Enfocados ayudar al emprendedor
-              <span sx={{ background: `url(${paint1})` }}>Campechano</span> a crecer su negocio y lograr sus metas en corto plazo
+              <span sx={{ background: `url(${paint1})` }}>del sureste</span> a crecer su negocio y lograr sus metas en corto plazo
             </Heading>
             <Text as="p" sx={styles.summary}>
-              Si cuentas con uno de los siguientes emprendimientos y quieres acelerar el crecimiento de tu negocio, llamanos.
+
+              Si cuentas con uno de los siguientes emprendimientos y quieres acelerar el crecimiento de tu negocio, <Link path={"#"} style={{ color: '#A29BFE', fontWeight: 500 }}>agenda una visita</Link>.
             </Text>
 
             <Grid sx={styles.list} as="ul">
