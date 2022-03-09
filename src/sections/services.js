@@ -38,7 +38,7 @@ const data = {
       id: 4,
       icon: "BsLightning",
       title: 'Solución express',
-      desc: `Olvídate de los largos procesos. Con solo una visita en tu local el agente podrá otorgarse tu crédito.`,
+      desc: `Olvídate de los largos procesos. Con solo una visita en tu local el agente podrá otorgarte tu crédito.`,
       link: '#',
     },
     {
@@ -52,7 +52,7 @@ const data = {
       id: 6,
       icon: "BsGeo",
       title: 'Sin salir de tu negocio',
-      desc: `Tanto el crédito como los abonos se realizarán en tu negocio.`,
+      desc: `Uno de nuestros agentes te visitará directo en tu negocio.`,
       link: '#',
     },
   ],

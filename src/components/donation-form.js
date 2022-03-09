@@ -61,7 +61,7 @@ const DonationForm = () => {
               defaultChecked={state.donationType === 'onetime'}
               onChange={handleDonationType}
             />
-            14 Semanas
+            12 Semanas
           </Label>
           <Label>
             <Radio

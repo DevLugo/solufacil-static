@@ -11,9 +11,9 @@ import { Link } from 'components/link';
 const list = [
   'Carnicería',
   'Tienda de abarrotes',
-  'Tortilleria',
-  'Papeleria',
-  'Ferreteria',
+  'Tortillería',
+  'Papelería',
+  'Ferretería',
   'Fondas'
 ];
 
@@ -43,7 +43,7 @@ const VideoIntro = () => {
           </Box>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-              Enfocados ayudar al emprendedor
+              Enfocados a ayudar al emprendedor
               <span sx={{ background: `url(${paint1})` }}>del sureste</span> a crecer su negocio y lograr sus metas a corto plazo
             </Heading>
             <Text sx={styles.summary} >

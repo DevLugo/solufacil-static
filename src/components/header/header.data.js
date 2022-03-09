@@ -1,7 +1,7 @@
 export default [
   {
     path: 'home',
-    label: 'Calcula tu credito',
+    label: 'Solicita tu credito',
   },
   {
     path: 'about',
