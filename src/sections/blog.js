@@ -3,7 +3,6 @@ import { jsx, Box, Container } from 'theme-ui';
 import Masonry from 'react-masonry-component';
 import SectionHeading from 'components/section-heading';
 import BlogPost from 'components/cards/blog-post';
-import thumb1 from 'assets/images/stores/1.jpeg';
 import thumb2 from 'assets/images/stores/2.jpeg';
 import thumb3 from 'assets/images/stores/3.jpeg';
 import thumb4 from 'assets/images/stores/4.jpeg';
@@ -12,7 +11,7 @@ const data = [
   {
     id: 1,
     slug: '#how-to',
-    thumbnail: thumb1,
+    thumbnail: null,
     showDescription: true,
     title: `How to work with prototype design with adobe xd featuring tools`,
     description: `The 2019 Innovation by Design Awards honor the designers and businesses solving the problems of today and tomorrow. It is one of the most sought-after design`,

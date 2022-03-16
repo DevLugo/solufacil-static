@@ -58,8 +58,10 @@ const NavbarDrawer = () => {
             </Box>
           ))}
         </Box>
-        <Button variant="primary" sx={styles.donateNow}>
-          Donate Now
+        <Button variant="primary" sx={styles.donateNow} onClick={() => {
+          location.href = 'https://api.whatsapp.com/send?phone=+529811862261&text=Estoy Interesado en un crédito para mi negocio';
+        }}>
+          Quiero mi Crédito
         </Button>
       </Box>
     </Drawer>

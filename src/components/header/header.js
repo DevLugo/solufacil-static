@@ -28,7 +28,7 @@ export default function Header() {
                 <Flex sx={styles.buttonGroup}>
 
                   <Button variant="primary" sx={styles.donateNow} onClick={() => {
-                    location.href = 'https://api.whatsapp.com/send?phone=+529811332834&text=Estoy Interesado en un crédito para mi negocio';
+                    location.href = 'https://api.whatsapp.com/send?phone=+529811862261&text=Estoy Interesado en un crédito para mi negocio';
                   }}>
                     Quiero mi crédito
                   </Button>

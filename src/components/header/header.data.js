@@ -1,7 +1,7 @@
 export default [
   {
     path: 'home',
-    label: 'Solicita tu credito',
+    label: 'Solicita tu crédito',
   },
   {
     path: 'about',
@@ -13,6 +13,6 @@ export default [
   },
   {
     path: 'first_credit',
-    label: 'Tu primer credito',
+    label: 'Tu primer crédito',
   },
 ];
