@@ -1,8 +1,7 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
-import logo from 'assets/images/logo.svg';
-import logoWhite from 'assets/images/logo-white.svg';
+import logo from 'assets/images/logo.png';
 
 export default function Logo({ isWhite, ...props }) {
   return (
@@ -10,8 +9,8 @@ export default function Logo({ isWhite, ...props }) {
       <Image
         width="187"
         height="37"
-        src={isWhite ? logoWhite : logo}
-        alt="startup landing logo"
+        src={logo}
+        alt="Capital SoluFacil"
       />
     </Link>
   );

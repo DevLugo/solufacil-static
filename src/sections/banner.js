@@ -2,7 +2,7 @@
 import { jsx, Box, Container } from 'theme-ui';
 import DonationForm from 'components/donation-form';
 import Image from 'components/image';
-import illustration from 'assets/images/main_banner_2.jpg';
+import illustration from 'assets/images/main_banner_2.png';
 
 const Banner = () => {
   return (

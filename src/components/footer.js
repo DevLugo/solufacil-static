@@ -7,23 +7,19 @@ import Logo from 'components/logo';
 const menuItems = [
   {
     path: '#home',
-    label: 'Home',
+    label: 'Solicita tu crédito',
   },
   {
-    path: '#advertise',
-    label: 'Advertise',
+    path: '#about',
+    label: 'Nosotros',
   },
   {
-    path: '#supports',
-    label: 'Supports',
+    path: '#services',
+    label: '¿Qué nos hace diferentes?',
   },
   {
-    path: '#marketing',
-    label: 'Marketing',
-  },
-  {
-    path: '#faq',
-    label: 'FAQ',
+    path: '#first_credit',
+    label: 'Tu primer crédito',
   },
 ];
 
@@ -35,7 +31,6 @@ export default function Footer() {
           <Flex sx={styles.copyright}>
             <Logo isWhite sx={styles.logo} />
             <Text as="span">
-              All right reserved - Design &amp; Developed by RedQ, Inc
             </Text>
           </Flex>
           <Flex as="ul" sx={styles.footerNav}>
