@@ -14,7 +14,7 @@ import { useState } from 'react';
 
 import dotPattern from 'assets/images/dot-pattern.png';
 
-const presetAmounts = [10000, 15000, 20000];
+const presetAmounts = [3000, 5000, 10000];
 
 const DonationForm = () => {
   const [state, setState] = useState({
@@ -61,7 +61,7 @@ const DonationForm = () => {
               defaultChecked={state.donationType === 'onetime'}
               onChange={handleDonationType}
             />
-            12 Semanas
+            14 Semanas
           </Label>
           <Label>
             <Radio
