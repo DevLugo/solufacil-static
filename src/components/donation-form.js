@@ -14,7 +14,7 @@ import { useState } from 'react';
 
 import dotPattern from 'assets/images/dot-pattern.png';
 
-const presetAmounts = [3000, 5000, 10000];
+const presetAmounts = [2000, 2500, 3000];
 
 const DonationForm = () => {
   const [state, setState] = useState({
@@ -63,7 +63,7 @@ const DonationForm = () => {
             />
             14 Semanas
           </Label>
-          <Label>
+          /* <Label>
             <Radio
               value="monthly"
               name="donation-type"
@@ -71,7 +71,7 @@ const DonationForm = () => {
               onChange={handleDonationType}
             />
             20 Semanas
-          </Label>
+          </Label> */
         </Box>
         <Box sx={styles.presetAmounts}>
           {presetAmounts.map((amount, i) => (
