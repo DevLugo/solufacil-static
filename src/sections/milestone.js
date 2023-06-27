@@ -14,7 +14,7 @@ const Milestone = () => {
             <Text as="p" sx={styles.cardTitle}>
               Tu primer crédito
             </Text>
-            <Heading sx={styles.goal}>$10,000</Heading>
+            <Heading sx={styles.goal}>$3,000</Heading>
             <Text as="p" sx={styles.collected}>
               Agenda una visita de nuestro asesor
             </Text>
