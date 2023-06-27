@@ -63,15 +63,6 @@ const DonationForm = () => {
             />
             14 Semanas
           </Label>
-          /* <Label>
-            <Radio
-              value="monthly"
-              name="donation-type"
-              defaultChecked={state.donationType === 'monthly'}
-              onChange={handleDonationType}
-            />
-            20 Semanas
-          </Label> */
         </Box>
         <Box sx={styles.presetAmounts}>
           {presetAmounts.map((amount, i) => (
